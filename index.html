@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaveh Samiee - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --text-color: #333;
+            --bg-color: #f4f4f4;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            background-color: var(--bg-color);
+            max-width: 800px;  
+            margin: 0 auto;  
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center; 
+        }
+        .social-links {
+            margin-top: 10px;
+        }
+        .social-links a {
+            color: white;
+            font-size: 20px; 
+            margin-right: 10px;
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            color: var(--secondary-color);
+        }
+        nav {
+            background-color: var(--secondary-color);
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            text-align: center;  
+        }
+        nav a {
+            color: rgb(227, 221, 221);
+            display: inline-block;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            background-color: var(--primary-color);
+            margin: 0 2px;  
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            border: 1px solid transparent;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05);
+            border-color: white;
+        }
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        li::before {
+            content: '•';
+            color: green;  
+            position: absolute;
+            left: 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kaveh Samiee</h1>
+        <p>Ph.D. in Machine Learning & Signal Processing | Expert in Edge AI, Patient Monitoring, and Healthcare Solutions</p>
+        <div class="social-links">
+            <a href="https://scholar.google.com/citations?user=1UflL34AAAAJ&hl=en" target="_blank" title="Google Scholar">
+                <i class="fas fa-graduation-cap"></i>
+            </a>
+            <a href="https://github.com/KavehSam" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+             <a href="https://www.linkedin.com/in/kavehsamiee/" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+             </a>
+        </div>
+    </header>
+     <nav>
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#patents">Patents</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="main-content">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Over a decade of professional experience across various industries. My expertise spans time-series analysis, computer vision, machine learning, and large-scale data analytics, with a particular emphasis on applications in the healthcare sector. As a versatile full-stack data scientist with a multidisciplinary educational background and diverse work experience, I excel at integrating knowledge and skills from different domains, leveraging practical problem-solving and critical thinking to deliver impactful solutions.</p>
+        </section>
+
+        <section id="publications" class="section">
+            <h2>Publications</h2>
+            <ul>
+                <li>Samiee, K., & Kovács, P. (2024). On Edge Wearable ECG Signal Quality Assessment using Residual Hermite Projection and Liquid State Machine, a Hierarchical Domain Adaptation Approach. IEEE.</li>
+                <li>Samiee, K., & Kovács, P. (2023). ECG decomposition using cascaded spline projection residual auto encoders. 2023 Computing in Cardiology (CinC), 50, 1-4.</li>
+                <li>Kovács, P., & Samiee, K. (2022). Arrhythmia detection using spiking variable projection neural networks. Computing in Cardiology.</li>
+                <li>Samiee, K., Kovács, P., & Gabbouj, M. (2017). Epileptic seizure detection in long-term EEG records using sparse rational decomposition and local Gabor binary patterns feature extraction. Knowledge-Based Systems, 118, 228-240.</li>
+                <li>Samiee, K., Iosifidis A., & Gabbouj, M. (2017). On the comparison of random and Hebbian weights for the training of single-hidden layer feedforward neural networks. Expert Systems with Applications, 83, 177-186.</li>
+                <li>Raitoharju, J., Samiee, K., Kiranyaz, S., & Gabbouj, M. (2017). Particle swarm clustering fitness evaluation with computational centroids. Swarm and evolutionary computation, 34, 103-118.</li>
+                <li>Samiee, K., Kiranyaz, S., Gabbouj, M., & Saramäki, T. (2015). Long-term epileptic EEG classification via 2D mapping and textural features. Expert Systems with Applications, 42(20), 7175-7185.</li>
+                <li>Samiee, K., Kovács, P., Kiranyaz, S., Gabbouj, M., & Saramaki, T. (2015). Sleep stage classification using sparse rational decomposition of single channel EEG records. 2015 23rd European Signal Processing Conference (EUSIPCO), 1860-1864.</li>
+                <li>Gilián, Z., Kovács, P., & Samiee, K. (2014). Rhythm-based Accuracy Improvement of Heart Beat Detection Algorithms. Computing in Cardiology Conference (CinC), 269-272.</li>
+                <li>Raitoharju, J., Zhang, H., Ozan, E.C., Waris, M.A., Faisal, M., Cao, G., Roininen, M., Samiee, K., Kiranyaz, S., & Gabbouj, M. (2014). Tut MUVIS image retrieval system proposal for MSR-Bing challenge 2014. 2014 IEEE International Conference on Multimedia and Expo Workshops (ICMEW), 1-6.</li>
+                <li>Samiee, K., Kovacs, P., & Gabbouj, M. (2014). Epileptic seizure classification of EEG time-series using rational discrete short-time Fourier transform. IEEE transactions on Biomedical Engineering, 62(2), 541-552.</li>
+                <li>Kovacs, P., Samiee, K., & Gabbouj, M. (2014). On application of rational discrete short time Fourier transform in epileptic seizure classification. 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP).</li>
+                <li>Samiee, K. (2009). A replacement algorithm based on weighting and ranking cache objects. International Journal of Hybrid Information Technology, 2(2), 93-104.</li>
+                <li>Samiee, K. (2009). An image segmentation method for detecting objects in images with textural background. 2009 2nd International Workshop on Nonlinear Dynamics and Synchronization.</li>
+                <li>Samiee, K., & Rad,G.A.R.(2008). Wrp : Weighting replacement policy to improve cache performance . International Symposium on Computer Science and its Applications ,38-41.</li>
+                <li>Samiee,K.& Rad,G.A.R.(2008). Textural segmentation of sidescan sonar images based on gabor filters bank and active contours without edges .2008 IEEE Fifth International Conference on Advanced Video and Signal Based Surveillance .</li>
+                <li>Rad,G.A.R.& Samiee,K.(2008). Fast and modified image segmentation method based on active contours and gabor filter .2008 Third International Conference on Information and Communication Technologies : From Theory to Applications .</li>
+            </ul>
+        </section>
+       <section id="patents" class="section">
+           <h2>Patents</h2>
+           <ul>
+               <li>Samiee,K.(2022).Methods and systems for patient monitoring.US Patent US11432778B2.</li>
+           </ul>
+       </section>
+       <section id="cv" class="section">
+           <h2>Curriculum Vitae</h2>
+           <p>You can download my full CV <a href="cv.pdf" target="_blank">here</a>.</p>
+       </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you would like to get in touch, please feel free to email me at: <a href="kaveh.samiee@gmail.com">kaveh.samiee [at] gmail [dot] com</a>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Kaveh Samiee. Last updated: February 23, 2025</p>
+    </footer>
+</body>
+</html>
